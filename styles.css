@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Hader */
+
+.img_perfil_header {
+    width: 70px;
+}
+
+.img_perfil_header img {
+    width: 100%;
+}
+
+/* Sections */
+.info_personal {
+    background: #4955ff;
+    color: #FFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_personal ul {
+    padding: 40px 25px;
+}
+
+.info_personal ul li {
+    list-style: none;
+}
