@@ -13,15 +13,16 @@ header {
 }
 
 .title {
-    margin: 10px 0 4em 0;
+    margin: 20px 0 3.5em 0;
     font-size: 35px;
     text-align: center;
 }
 
 .img_perfil_header {
-    height: 135px;
+    height: 160px;
     border-radius: 100px;
-    border: 2px solid #3f6ddd;
+    border: 4px solid #3f6ddd;
+    /* box-shadow: 0 0 25px #7629cf; */
 
     position: absolute;
     top: 9em;
@@ -29,6 +30,12 @@ header {
 
 .img_perfil_header img {
     height: 100%;
+}
+
+@media screen and (min-width: 545px) {
+    .img_perfil_header {
+        top: 6.5em;
+    }
 }
 
 /* Sections */
@@ -42,7 +49,7 @@ header {
 }
 
 .info_personal ul {
-    padding: 4em 25px;
+    padding: 6em 35px;
 }
 
 .info_personal ul li {
