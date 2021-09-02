@@ -21,8 +21,8 @@ header {
 .img_perfil_header {
     height: 160px;
     border-radius: 100px;
-    border: 4px solid #3f6ddd;
-    /* box-shadow: 0 0 25px #7629cf; */
+    /* border: 4px solid #3f6ddd; */
+    box-shadow: 0 0 25px #7629cf;
 
     position: absolute;
     top: 9em;
@@ -61,7 +61,7 @@ header {
 /* Footer */
 
 footer {
-    padding: 20px;
+    padding: 30px;
     background: #e7464b;
 
     display: flex;
